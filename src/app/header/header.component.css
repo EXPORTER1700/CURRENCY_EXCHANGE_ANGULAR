@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 5rem;
+  align-items: center;
+}
+
+.currencies {
+  display: flex;
+}
+
+.currency {
+  margin-right: 15px;
+  padding: .5rem;
+  border: 1px solid #ff9a00;
+  border-radius: 10px;
+  color: #ff9a00;
+}
+
+.currency:last-child {
+  margin-right: 0;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+
+.span {
+  color: #ff4148;
+}

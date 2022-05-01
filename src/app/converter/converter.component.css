@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+  .group{
+    margin-bottom: 20px;
+  }
+  .button{
+    margin-bottom: 20px;
+  }
+  .group:last-child{
+    margin-bottom: 0;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.group {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group > select {
+  margin-bottom: 20px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 200px;
+  height: 40px;
+  padding: 0;
+  border: 2px solid #ff9a00;
+  border-radius: 10px;
+  color: #ff9a00;
+  text-align: center;
+  background: rgba(255, 255, 255, 0);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff9a00;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #ff9a00;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.select{
+  outline: none;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #ff9a00;
+  border-radius: 10px;
+  color: #ff9a00;
+  text-align: center;
+  background: rgba(255, 255, 255, 0);
+}
+.select > option {
+  background-color: rgba(255, 255, 255, 0);
+}
+

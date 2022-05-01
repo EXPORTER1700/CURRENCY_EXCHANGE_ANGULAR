@@ -1,0 +1,10 @@
+<div class="container">
+  <p class="title">Money <span class="span">24</span></p>
+  <div class="currencies">
+    <p
+      *ngFor="let currency of currencies"
+      class="currency">
+      {{currency.cc}}:{{currency.rate.toFixed(2)}}
+    </p>
+  </div>
+</div>
